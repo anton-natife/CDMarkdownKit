@@ -6,9 +6,9 @@ Pod::Spec.new do |s|
   s.description = <<-DESC
   This Swift framework handles standard markdown parsing along with the ability to parse custom elements.
                          DESC
-  s.homepage = 'https://github.com/chrisdhaan/CDMarkdownKit'
+  s.homepage = 'https://github.com/anton-natife/CDMarkdownKit'
   s.author = { 'Christopher de Haan' => 'contact@christopherdehaan.me' }
-  s.source = { :git => 'https://github.com/chrisdhaan/CDMarkdownKit.git', :tag => s.version.to_s }
+  s.source = { :git => 'https://github.com/anton-natife/CDMarkdownKit.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '10.0'
   s.osx.deployment_target = '10.12'
